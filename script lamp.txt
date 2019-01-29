@@ -1,0 +1,14 @@
+//usuario e senha servidor
+usuario costabrava
+senha 1010
+
+//logar como root
+sudo -i
+abrir o repositorio de scripts
+
+//instalar a pilha lamp
+bash lamp.sh
+
+//usuario e senha lamp 
+usuario root
+senha Zohar34@blue*2019

@@ -1,0 +1,37 @@
+//usuario e senha servidor
+usuario costabrava
+senha 1010
+
+//instalar e configurar o github 
+sudo apt-get update && sudo apt-get upgrade
+sudo apt-get dist-upgrade
+sudo apt-get install git
+ls -a
+git config --global user.name "rodrigojuan"
+git config --global user.email "rodrigo.juan@gmail.com"
+cat .gitconfig
+git clone https://github.com/rodrigojuan/shellscript.git
+cd shellscript
+ls
+git status
+
+//criando um arquivo.sh
+vi hello.sh
+
+//dentro do vi
+:set number
+
+//permissão de acesso ao script
+chmod +X hello.sh
+
+git status
+git add hello.sh
+git status
+git commit -m "adicionado arquivo hello.sh"
+git status
+git push
+
+usuario rodrigojuan
+senha Zohar34@blue*2018
+
+git status
